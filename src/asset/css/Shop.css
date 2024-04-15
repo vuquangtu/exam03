@@ -1,0 +1,16 @@
+/* CSS */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center !important;
+  padding: 8px; /* Điều chỉnh padding tùy theo nhu cầu */
+}
+
+tr:nth-child(even) {
+  background-color: #282c34 !important;
+}
